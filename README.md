@@ -1,4 +1,4 @@
-# 🛋️ Меблерія — Створюємо простір вашої мрії
+# 🛋️ Mebleuria — Creating the Space of Your Dreams
 
 <p align="center">
   <img src="src/public/img/hero-section-preview.png" alt="Mebleuria Preview" width="100%">
@@ -6,124 +6,112 @@
 
 ---
 
-## 🎯 Про проєкт
+## 🎯 About the Project
 
-📄 **Live Page:**
-[Переглянути проєкт](https://evgeniy-sub8way.github.io/it-creators-project-meblerija/)
+📄 **Live Page:** [View the project](https://evgeniy-sub8way.github.io/it-creators-project-meblerija/)
 
-**Mebleuria** — це концептуальний ресурс для підбору та замовлення сучасних
-меблів. Проєкт реалізований як високопродуктивний лендінг із повною інтеграцією
-REST API, складною системою фільтрації та фокусом на ідеальному UX/UI.
+**Mebleuria** is a concept website for discovering and ordering modern furniture. The project is built as a high-performance landing page with full REST API integration, advanced filtering functionality, and a strong focus on UX/UI.
 
-Ми створили продукт, який поєднує мінімалістичний дизайн із потужною технічною
-базою, забезпечуючи швидке завантаження та плавну взаємодію на будь-яких
-пристроях.
+We created a product that combines a minimalist visual design with a solid technical foundation, providing fast loading times and smooth interactions across different devices.
 
 ---
 
-## 🚀 Ключові можливості (Features)
+## 🚀 Features
 
-- **🧩 Динамічний каталог:** Автоматичне завантаження товарів та категорій через
-  API.
-- **🔍 Розумна фільтрація:** Миттєве сортування меблів без перезавантаження
-  сторінки.
-- **📦 Поступове завантаження:** Функціонал "Load More" для оптимізації передачі
-  даних.
-- **🖼️ Retina-Ready:** Адаптація графіки під дисплеї з високою щільністю
-  пікселів (x2).
-- **✨ Interactive Elements:** \* Адаптивне бургер-меню з блокуванням скролу.
-  - Слайдер відгуків (`Swiper.js`) із кастомною логікою округлення рейтингу.
-  - Акордеон FAQ для зручного перегляду інформації.
-- **📩 Форма замовлення:** Повна валідація даних та інтеграція з системою
-  push-сповіщень `iziToast`.
+- **🧩 Dynamic Catalog:** Products and categories are dynamically loaded from the API.
+- **🔍 Smart Filtering:** Filter and sort furniture instantly without reloading the page.
+- **📦 Progressive Loading:** A Load More feature is implemented to optimize data loading and improve performance.
+- **🖼️ Retina-Ready:** Graphics are optimized for high-density displays with 2x resolution support.
+- **✨ Interactive Elements:** 
+    - Responsive burger menu with scroll locking.
+    - Reviews slider built with Swiper.js, including custom rating-rounding logic.
+    - Interactive FAQ accordion for convenient access to additional information.
+- **📩 Order Form:** Form validation with integration of iziToast for user notifications.
 
 ---
 
-## 🛠 Використані технології
+## 🛠 Tech Stack
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,github,vite,nodejs,figma&theme=light)](https://skillicons.dev)
 
-| Компонент      | Технологія / Бібліотека                  |
-| :------------- | :--------------------------------------- |
-| **Стилізація** | SCSS (BEM Methodology), CSS3 Transitions |
-| **Логіка**     | JavaScript (ES6+ Modules), Axios         |
-| **Інтерактив** | Swiper.js, Accordion-js, CSS Star Rating |
-| **Сповіщення** | iziToast                                 |
-| **Збірка**     | Vite                                     |
+| Component         | Technology / Library                     |
+| :-------------    | :--------------------------------------- |
+| **Styling**       | SCSS (BEM Methodology), CSS3 Transitions |
+| **Logic**         | JavaScript (ES6+ Modules), Axios         |
+| **Interactions**  | Swiper.js, Accordion-js, CSS Star Rating |
+| **Notifications** | iziToast                                 |
+| **Build Tool**    | Vite                                     |
 
 ---
 
-## 📐 Адаптивність та Оптимізація
+## 📐 Responsiveness & Optimization
 
-Проєкт пройшов повний цикл тестування на відповідність макету:
+The project was thoroughly tested to ensure accurate implementation of the design across different screen sizes:
 
-📱 _Mobile First:_ Гумова верстка від 375px.
+📱 _Mobile First:_  Fluid layout starting from 375px.
 
-📟 _Tablet:_ Адаптив від 768px (спеціальне позиціонування бургер-меню).
+📟 _Tablet:_ Responsive layout from 768px, including custom burger menu positioning.
 
-💻 _Desktop:_ Повнорозмірна версія 1440px.
+💻 _Desktop:_ Full-width layout optimized for 1440px.
 
-🟡 _Performance:_ Наявність "лоадерів" під час очікування відповіді від сервера
-та обробка помилок (Try/Catch).
+🟡 _Performance:_ Loading indicators are displayed while waiting for server responses, with API request errors handled through try/catch.
 
 ---
 
-## 👥 Наша Команда
+## 👥 Our Team
 
-|                                  Аватар                                   | Розробник                                              | Роль             | Секція та технічний внесок                                                                                                      |
+|                                  Avatar                                   | Developer                                              | Role             | Section & Technical Contribution                                                                                                      |
 | :-----------------------------------------------------------------------: | :----------------------------------------------------- | :--------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/Evgeniy-sub8way.png" width="50" height="50"> | [Yevhenii Priadko](https://github.com/Evgeniy-sub8way) | **Team Lead**    | **Hero Section:** Архітектура проєкту, налаштування збірки Vite, розробка головного екрана та координація технічних рішень.     |
-|    <img src="https://github.com/MyLyashok.png" width="50" height="50">    | [Mykola Lyashok](https://github.com/MyLyashok)         | **Scrum Master** | **About Us Section:** Верстка блоку "Про нас", модерація документації (README), контроль термінів та внутрішня комунікація.     |
-|  <img src="https://github.com/Ivan-Shkilnyi.png" width="50" height="50">  | [Ivan Shkilnyi](https://github.com/Ivan-Shkilnyi)      | Frontend Dev     | **Order Modal:** Реалізація форми замовлення, валідація даних згідно зі схемою API та інтеграція пуш-повідомлень `iziToast`.    |
-|    <img src="https://github.com/Liliia-2.png" width="50" height="50">     | [Liliia Pastushenko](https://github.com/Liliia-2)      | UI/UX Engineer   | **Global Loader & UI Logic:** Створення системи індикаторів завантаження (Spinner) та глобальна обробка помилок запитів до API. |
-|  <img src="https://github.com/alex-asriian.png" width="50" height="50">   | [Oleksii](https://github.com/alex-asriian)             | Frontend Dev     | **FAQ Section:** Побудова інтерактивного акордеона питань та відповідей з використанням бібліотеки `accordion-js`.              |
-|  <img src="https://github.com/OlhaBorzhynska.png" width="50" height="50">  | [Olha Borzhynska](https://github.com/OlhaBorzhynska)     | Frontend Dev     | **Feedback Section:** Інтеграція слайдера `Swiper.js`, рендер відгуків з БД та візуалізація оцінок через Star Rating.           |
-|  <img src="https://github.com/Olechka-coder.png" width="50" height="50">  | [Olga Tsasiuk](https://github.com/Olechka-coder)       | Frontend Dev     | **Details Modal:** Розробка модального вікна з галереєю зображень, вибором кольорових маркерів та характеристиками товару.      |
-|  <img src="https://github.com/SerdiukSerhii.png" width="50" height="50">  | [Serhii Serdiuk](https://github.com/SerdiukSerhii)     | Frontend Dev     | **Furniture List Section:** Динамічний каталог, рендер карток з БД, фільтрація за категоріями та функціонал кнопки "Load More". |
-|   <img src="https://github.com/Vika0605-av.png" width="50" height="50">   | [Viktoria Alexandrova](https://github.com/Vika0605-av) | Frontend Dev     | **Footer:** Розробка підвалу сайту, інтеграція соціальних мереж та налаштування безпечних зовнішніх посилань (rel="noopener").  |
-|   <img src="https://github.com/YuliaKozak.png" width="50" height="50">    | [Yuliia Kozak](https://github.com/YuliaKozak)          | Frontend Dev     | **Header:** Створення адаптивної навігації, плавних якірних переходів та логіка бургер-меню з блокуванням скролу.               |
+| <img src="https://github.com/Evgeniy-sub8way.png" width="50" height="50"> | [Yevhenii Priadko](https://github.com/Evgeniy-sub8way) | **Team Lead**    | **Hero Section:** Project architecture, Vite build configuration, development of the main hero section, and coordination of technical decisions.     |
+|    <img src="https://github.com/MyLyashok.png" width="50" height="50">    | [Mykola Lyashok](https://github.com/MyLyashok)         | **Scrum Master** | **About Us Section:** Development of the About Us section, README documentation, deadline tracking, and internal team communication.     |
+|  <img src="https://github.com/Ivan-Shkilnyi.png" width="50" height="50">  | [Ivan Shkilnyi](https://github.com/Ivan-Shkilnyi)      | Frontend Developer     | **Order Modal:** Development of the order form, API-based data validation, and integration of iziToast notifications.    |
+|    <img src="https://github.com/Liliia-2.png" width="50" height="50">     | [Liliia Pastushenko](https://github.com/Liliia-2)      | Frontend Developer   | **Global Loader & UI Logic:** Implementation of loading indicators (Spinner) and global error handling for API requests. |
+|  <img src="https://github.com/alex-asriian.png" width="50" height="50">   | [Oleksii Asriian](https://github.com/alex-asriian)             | Frontend Developer     | **FAQ Section:** Development of an interactive FAQ accordion using the accordion-js library.              |
+|  <img src="https://github.com/OlhaBorzhynska.png" width="50" height="50">  | [Olha Borzhynska](https://github.com/OlhaBorzhynska)     | Frontend Developer     | **Feedback Section:** Integration of the Swiper.js slider, rendering reviews from the database, and displaying ratings using Star Rating.           |
+|  <img src="https://github.com/Olechka-coder.png" width="50" height="50">  | [Olga Tsasiuk](https://github.com/Olechka-coder)       | Frontend Developer     | **Details Modal:** Development of a product details modal with an image gallery, color selection markers, and product specifications.      |
+|  <img src="https://github.com/SerdiukSerhii.png" width="50" height="50">  | [Serhii Serdiuk](https://github.com/SerdiukSerhii)     | Frontend Developer     | **Furniture List Section:** Dynamic catalog, product card rendering from the database, category filtering, and Load More functionality. |
+|   <img src="https://github.com/Vika0605-av.png" width="50" height="50">   | [Viktoria Alexandrova](https://github.com/Vika0605-av) | Frontend Developer     | **Footer:** Footer development, social media integration, and configuration of secure external links using rel="noopener".  |
+|   <img src="https://github.com/YuliaKozak.png" width="50" height="50">    | [Yuliia Kozak](https://github.com/YuliaKozak)          | Frontend Developer     | **Header:** Responsive navigation, smooth anchor scrolling, and burger menu logic with scroll locking.               |
 
 ---
 
-## 🏗️ Структура проєкту
+## 🏗️ Project Structure
 
-**Код організований модульно для зручності підтримки:**
+**The codebase is organized into modules to simplify maintenance and further development:**
 
-🔹 src/partials/ — HTML-фрагменти (компоненти сторінки).
+🔹 src/partials/ — HTML fragments and page components.
 
-🔹 src/js/ — JS-модулі для логіки API, модалок та фільтрів.
+🔹 src/js/ — JavaScript modules responsible for API logic, modals, and filtering.
 
-🔹 src/css/ — стилі компонентів (SCSS).
+🔹 src/css/ — Component styles written in SCSS.
 
-🔹 public/ — статичні ресурси.
-
----
-
-## 💡 Супутня інформація
-
-- **Backend API:** Проєкт інтегровано з
-  [Furniture Store API](https://furniture-store-v2.b.goit.study/api-docs/).
-- **UI Kit:** Використано кастомні рішення для рейтингів та інтерактивних кнопок
-  згідно з макетом у Figma.
-- **Деплой:** Автоматизовано через GitHub Actions / Pages.
+🔹 public/ — Static assets.
 
 ---
 
-## ⚙️ Як запустити проєкт локально
+## 💡 Additional Information
 
-**Клонувати репозиторій:**
+- **Backend API:** The project is integrated with the [Furniture Store API](https://furniture-store-v2.b.goit.study/api-docs/).
+- **UI Kit:** Custom solutions for ratings and interactive elements were implemented according to the Figma design.
+- **Deployment:** Automated deployment using GitHub Actions / GitHub Pages.
+
+---
+
+## ⚙️ Getting Started
+
+**Clone the repository:**
 
 ```bash
 git clone https://github.com/Evgeniy-sub8way/it-creators-project-meblerija.git
 ```
 
-**Встановити залежності:**
+**Install dependencies:**
 
 ```bash
 npm install
 ```
 
-**Запустити режим розробки:**
+**Run the development server:**
 
 ```bash
 npm run dev
